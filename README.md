@@ -20,7 +20,13 @@ A beautiful CLI tool to query all five Linode DNS servers for a domain and colle
 npm install -g linode-dns-checker
 ```
 
-### Option 2: Clone and build from source
+### Option 2: Use Docker
+
+```bash
+docker run --rm ghcr.io/foxscore/linode-dns-checker:latest <arguments>
+```
+
+### Option 3: Clone and build from source
 
 ```bash
 # Clone the repository
